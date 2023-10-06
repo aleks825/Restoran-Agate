@@ -1,0 +1,27 @@
+.photo {
+    margin: 12px;
+    width: calc((100% - 2* 24px) / 2);
+    img {
+        max-width: 924px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .photo {
+        margin: 5px;
+    }
+    img {
+        max-width: 492px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .photo {
+        margin: 6px;
+    }
+    img {
+        max-width: 354px;
+    }
+}

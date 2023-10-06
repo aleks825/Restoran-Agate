@@ -1,0 +1,13 @@
+.logo {
+    font-size: 1.6667rem;
+    transition: color .5s;
+    &:hover {
+        color: #d61596;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        font-size: 1.1667rem;
+    }
+}

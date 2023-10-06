@@ -1,0 +1,18 @@
+.restoran-photos {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 0 -12px;
+}
+
+@media screen and (max-width: 1024px) {
+    .restoran-photos {
+        margin: 0 -5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .restoran-photos {
+        margin: 0 -6px;
+    }
+}

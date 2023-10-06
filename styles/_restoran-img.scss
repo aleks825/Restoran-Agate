@@ -1,0 +1,15 @@
+.restoran-img {
+    padding: 100px 24px;
+}
+
+@media screen and (max-width: 1024px) {
+    .restoran-img {
+        padding: 80px 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .restoran-img {
+        padding: 70px 24px;
+    }
+}

@@ -1,0 +1,31 @@
+.description {
+    background-color: $bg-color-primary;
+    padding: 100px 0;
+    &__text {
+        font-size: 1rem;
+        max-width: 941px;
+        line-height: 135.8%;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .description {
+        padding: 80px 0;
+        &__text {
+            font-size: 0.7333rem;
+            max-width: 602px;
+        }
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    .description {
+        padding: 70px 0;
+        &__text {
+            font-size: 0.6667rem;
+            max-width: 541px;
+        }
+    } 
+}

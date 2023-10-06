@@ -1,0 +1,39 @@
+.banner {
+    padding: 218px 0 185px;
+    &__title {
+        font-size: 2.8333rem;
+        text-transform: uppercase;
+        line-height: 121.69%;
+        margin: 0 auto 35px;
+        max-width: 914px;
+    }
+    &__text {
+        font-size: 0.8333rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .banner {
+        padding: 183px 0 153px;
+        &__title {
+            font-size: 2rem;
+            max-width: 697px;
+        }
+        &__text {
+            font-size: 0.6rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        padding: 171px 0 99px;
+        &__title {
+            font-size: 1.6667rem;
+            max-width: 329px;
+        }
+        &__text {
+            font-size: 0.6rem;
+        }
+    } 
+}

@@ -1,0 +1,22 @@
+.contacts {
+    font-size: 1.1667rem;
+    line-height: 50px;
+    margin-bottom: 60px;
+    a {
+        color: $text-color-primary;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contacts {
+        font-size: 0.8333rem;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacts {
+        font-size: 0.7333rem;
+        margin-bottom: 40px;
+    }
+}

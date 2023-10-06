@@ -1,0 +1,30 @@
+.menu {
+    display: flex;
+    align-items: center;
+    &__item {
+        vertical-align: middle;
+        font-size: 0.7333rem;
+        &:not(:last-child) {
+            margin-right: 25px;
+        }
+        &:not(:last-child)::after {
+            content: "";
+            display: inline-block;
+            height: 16px;
+            border: 1.5px solid #D8D5D5;
+            margin-left: 25px;
+            vertical-align: middle;
+        }
+        &:hover {
+            color: #d61596;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .menu {
+        &__item {
+            font-size: 0.6rem;
+        }
+    }
+}

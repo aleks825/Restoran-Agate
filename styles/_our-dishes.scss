@@ -1,0 +1,34 @@
+.our-dishes {
+    padding-bottom: 100px;
+    &__text {
+        font-size: 0.8333rem;
+        color: #474747;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .our-dishes {
+        padding-bottom: 80px;
+        &__text {
+            font-size: 0.7333rem;
+            margin-bottom: 48px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .our-dishes {
+        padding-bottom: 70px;
+        &__text {
+            font-size: 0.6667rem;
+            margin-bottom: 58px;
+        }
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .our-dishes {
+        padding-bottom: 60px;
+    }
+}
